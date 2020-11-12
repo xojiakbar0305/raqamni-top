@@ -43,6 +43,8 @@ elForm.addEventListener('submit', function (evt) {
     elAlert.textContent = `Topdiz, topdiz`
     elAlert.classList.add('alert-info')
     elAlert.classList.remove('alert-warning')
+    elInput.setAttribute('disabled', true)
+    elButton.setAttribute('disabled', true)
   } 
   
   //user katta son kiritganda
