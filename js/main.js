@@ -1,4 +1,4 @@
-var attempts = 6
+var attempts = 5
 // random 
 var randomNumber = Math.floor(Math.random() * (100 - 1 + 5)) + 5
 
